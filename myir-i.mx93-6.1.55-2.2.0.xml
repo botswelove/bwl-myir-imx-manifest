@@ -12,7 +12,7 @@
   <remote name="qt"          fetch="https://code.qt.io/yocto"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
-  <remote name="Myir-Dev"     fetch="https://github.com/MYiR-Dev"/>
+  <remote name="bwl-Myir-Dev"     fetch="https://github.com/botswelove"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
   <remote name="swupdate" fetch="https://github.com/sbabic"/>
   <remote name="ros"     fetch="https://github.com/ros"/>
@@ -37,7 +37,7 @@
   <project name="meta-swupdate" remote="swupdate" path="sources/meta-swupdate" revision="ec42fbc54048060c500ca6fabe6616cb608b293a" upstream="mickledore" />
   <project name="meta-ros" remote="ros" path="sources/meta-ros" revision="5858d0abfcbb71a6473197cb93bd6b635cdb87e4" upstream="mickledore" />
  
-  <project remote="Myir-Dev" revision="f1648d3d2cb018a55864736e45db1693845eab3d" name="meta-myir-imx" path="sources/meta-myir" upstream="i.MX93-6.1.55-mickledore" >
+  <project remote="bwl-Myir-Dev" revision="a3f1e71a23eee702d7b4c1e289cd1e97d61d0f34" name="bwl-meta-myir-imx" path="sources/meta-myir" upstream="i.MX93-6.1.55-mickledore-bwl" >
      <linkfile src="tools/myir-setup-release.sh" dest="myir-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
