@@ -16,7 +16,10 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
   <remote name="swupdate" fetch="https://github.com/sbabic"/>
   <remote name="ros"     fetch="https://github.com/ros"/>
-
+  <remote name="rnd"     fetch="https://github.com/rndbg"/>
+  <remote name="bwl"     fetch="https://github.com/botswelove"/>
+  
+https://github.com/rndbg/bwl-meta-rnd.git
   <project name="poky" remote="yp" path="sources/poky" revision="a57506c46d92bf0767060102d2139be06d46f575" upstream="mickledore"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="922f41b39f364e5b6be596b4b51e0fb37ffe1971" upstream="mickledore" />
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="af4dcba009ba98250315520f3003fde4ee164cce" upstream="mickledore" />
@@ -36,7 +39,9 @@
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="38e6b3e2fe0219c773f4637a09221ca5d15bf6fc" upstream="mickledore" />
   <project name="meta-swupdate" remote="swupdate" path="sources/meta-swupdate" revision="ec42fbc54048060c500ca6fabe6616cb608b293a" upstream="mickledore" />
   <project name="meta-ros" remote="ros" path="sources/meta-ros" revision="5858d0abfcbb71a6473197cb93bd6b635cdb87e4" upstream="mickledore" />
- 
+  <project name="meta-rnd" remote="rnd" path="sources/meta-rnd" revision="6e30ff25f6669acf477ed815399b967ee465d115" upstream="master" />
+  <project name="meta-bwl" remote="bwl" path="sources/meta-bwl" revision="07d9e9a2f9ac25e16eb2eebe5406ab97dd3bfbbb" upstream="main" />
+
   <project remote="bwl-Myir-Dev" revision="a3f1e71a23eee702d7b4c1e289cd1e97d61d0f34" name="bwl-meta-myir-imx" path="sources/meta-myir" upstream="i.MX93-6.1.55-mickledore-bwl" >
      <linkfile src="tools/myir-setup-release.sh" dest="myir-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
